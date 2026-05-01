@@ -1,4 +1,4 @@
-# 🎨 Awesome AI Image Prompts
+# Awesome AI Image Prompts
 
 > 一站式 AI 图像生成提示词集合，覆盖人像、摄影、电商、广告、海报、社交媒体、UI、信息图、漫画、演示文稿及技术图表等全场景。
 
@@ -6,17 +6,17 @@
 
 ---
 
-## 📖 项目简介
+## 项目简介
 
 本项目是一个精心整理的 AI 作图 Prompt 库，适配 GPT-Image、Midjourney、DALL·E、Stable Diffusion 等主流模型。每条 Prompt 均包含：
 
-- ✅ **英文提示词**（直接复制使用）
-- 🖼️ **示例效果图**（可视化参考）
-- ⚙️ **参数说明**（风格、尺寸、模型建议等）
+- **英文提示词**（直接复制使用）
+- **示例效果图**（可视化参考）
+- **参数说明**（风格、尺寸、模型建议等）
 
 ---
 
-## 🗂️ 分类导航
+## 分类导航
 
 | 编号 | 分类 | 文件夹 | 说明 | Prompt 数量 |
 |:---:|------|--------|------|:---:|
@@ -32,11 +32,11 @@
 | 10 | 📑 演示文稿 | [`10-presentation/`](10-presentation/) | 幻灯片封面、内容页、Pitch Deck、报告封面 | ~25 |
 | 11 | 📐 技术图表 | [`11-technical-diagram/`](11-technical-diagram/) | 架构图、流程图、时序图、ER图、网络拓扑 | ~80 |
 
-> 💡 **总计约 415+ 条高质量 Prompt**
+> **总计约 415+ 条高质量 Prompt**
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 找到你需要的场景
 
@@ -61,7 +61,7 @@ sharp focus on eyes, wearing a navy blazer...
 
 ---
 
-## 📋 Prompt 条目格式
+## Prompt 条目格式
 
 每条 Prompt 均遵循以下标准格式：
 
@@ -93,7 +93,7 @@ The actual prompt text in English...
 
 ---
 
-## 🔗 相关资源
+## 相关资源
 
 > 除了自己用过的一些提示词外，很多也是来自外部的各种开源项目和大佬，明细的外部参考来源详见 [SOURCES.md](SOURCES.md)
 
@@ -124,7 +124,7 @@ The actual prompt text in English...
 
 ---
 
-## 📄 许可证
+## License
 
 本项目采用 [MIT License](LICENSE) 开源。
 
