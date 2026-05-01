@@ -95,7 +95,7 @@ The actual prompt text in English...
 
 ## 🔗 相关资源
 
-> 完整来源分析详见 [SOURCES.md](SOURCES.md)
+> 除了自己用过的一些提示词外，很多也是来自外部的各种开源项目和大佬，明细的外部参考来源详见 [SOURCES.md](SOURCES.md)
 
 **Prompt 画廊 & 案例集：**
 
