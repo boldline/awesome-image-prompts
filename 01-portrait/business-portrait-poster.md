@@ -23,39 +23,29 @@
 **Prompt:**
 
 ```text
-Based on the uploaded portrait photo, generate a 3:4 vertical high-end minimalist business portrait poster.
+请基于我上传的人像照片，生成一张 3:4 竖版高级极简商务人像海报。
 
-IDENTITY PRESERVATION (strictly required):
-Preserve all real identity features of the subject, including facial structure, face shape, hairstyle, hair color, apparent age, gender, ethnicity, pose, clothing, jewelry, and overall temperament. No face swapping. No altering identity or core appearance. Minor enhancements are allowed: skin texture, lighting, sharpness, clothing details, and overall refinement to achieve a professional studio portrait effect.
+必须保留人物真实身份特征，包括五官结构、脸型、发型、发色、年龄感、性别、种族、姿势、服装、首饰和整体气质。禁止换脸，禁止改变人物身份或核心外貌。可以适度优化皮肤质感、光影、清晰度、服装细节和整体精致度，使画面呈现专业棚拍人像效果。
 
-COMPOSITION:
-Half-body or head-and-shoulders portrait. Subject centered or slightly right-aligned. Adequate negative space. Background replaced with a clean gray-white gradient studio backdrop — simple, soft, premium.
+画面采用半身人像或头肩人像构图，人物居中或略微偏右，保留适当留白。背景替换为干净的灰白色渐变棚拍背景，简洁、柔和、高级。光线为商业摄影柔光，均匀自然，低对比度但有层次，面部清晰对焦，肤色真实自然，整体质感细腻、清晰、专业。
 
-LIGHTING & QUALITY:
-Commercial photography soft lighting. Even and natural, low contrast but layered. Sharp focus on face. True-to-life skin tones. Fine, crisp, professional overall texture.
+人物造型为正式商务风，可搭配深色西装外套、白色或浅色衬衫、领带或简约配饰。整体气质现代、优雅、专业、可信赖，自然放松，自信从容，眼神明亮有神。
 
-STYLING:
-Formal business attire. Dark suit jacket, white or light shirt, tie or minimal accessories. Modern, elegant, professional, trustworthy. Relaxed yet confident. Bright, expressive eyes.
+整体风格参考高端商务证件照、企业高管肖像、时尚杂志封面、Portrait ID 风格和极简主义品牌海报。画面干净、克制、现代、高级，具有品牌级商业摄影质感。
 
-STYLE REFERENCE:
-High-end corporate ID photo, executive portrait, fashion magazine cover, Portrait ID style, minimalist brand poster. Clean, restrained, modern, premium. Brand-level commercial photography quality.
+请在画面左下角加入三行英文文字，整体左对齐，不遮挡人物面部，不影响人物主体。
 
-TEXT OVERLAY (bottom-left, left-aligned, must not cover subject's face):
-Line 1 — Name / Nickname / Title: {Name}
-Line 2 — Subtitle / Role / Tagline: {Title or Tagline}
-Line 3 — Series label: {Series No. + Style Theme}
+第一行主标题：{姓名 / 昵称 / 艺名}
+第二行副标题：{职位 / 身份 / 气质短句}
+第三行系列文字：{系列编号 + 风格主题}
 
-TEXT RULES:
-- If input is Chinese or another language, translate to natural, concise, formal, premium English before displaying. Do not show Chinese unless explicitly requested.
-- Line 1: Deep blue bold sans-serif, large font size
-- Line 2: White or black medium sans-serif
-- Line 3: White uppercase sans-serif, medium-small font size
-- Three lines vertically stacked, reasonable line spacing, clear hierarchy
-- No center alignment. No overflow. No garbled text. No covering the subject.
+文字规则：如果输入为中文或其他语言，请先翻译成自然、简洁、正式、高级的英文后再显示在画面中。除非明确要求保留中文，否则画面中不要出现中文。
 
-STYLE TYPE: {Corporate Executive / Tech Elite / Fashion Editorial / Artistic Minimalist}
+文字样式：第一行使用深蓝色粗体无衬线字体，大字号；第二行使用白色或黑色中等字号无衬线字体；第三行使用白色大写无衬线字体，中小字号。三行文字垂直排列，行距合理，层级清晰，禁止居中、禁止溢出、禁止乱码、禁止遮挡人物。
 
-OUTPUT: 3:4 vertical high-resolution poster. Realistic photographic quality. Premium minimalist style. Commercial studio lighting. Clean background. Fashion business portrait poster effect.
+风格类型：{商务高管风 / 科技精英风 / 时尚杂志风 / 艺术极简风}
+
+最终输出：3:4 竖版高清海报，真实摄影质感，高级极简风格，商业棚拍光效，干净背景，时尚商务人像海报效果。
 ```
 
 **示例效果：**
@@ -90,24 +80,24 @@ OUTPUT: 3:4 vertical high-resolution poster. Realistic photographic quality. Pre
 
 | 占位符 | 示例 | 说明 |
 |--------|------|------|
-| `{Name}` | `Zelda` / `张伟` → `Zhang Wei` | 姓名或昵称，中文自动翻译为英文 |
-| `{Title or Tagline}` | `The Only Princess of Hyrule` | 职位、身份或气质短句 |
-| `{Series No. + Style Theme}` | `MY LINK, WHERE ARE YOU` | 系列编号或风格主题，全大写 |
-| `{Style Type}` | `Corporate Executive` | 风格类型，影响整体气质调性 |
+| `{姓名 / 昵称 / 艺名}` | `Zelda` / `张伟` | 中文输入会自动翻译为英文显示在画面中 |
+| `{职位 / 身份 / 气质短句}` | `The Only Princess of Hyrule` | 职位、身份或气质短句 |
+| `{系列编号 + 风格主题}` | `MY LINK, WHERE ARE YOU` | 系列编号或风格主题，全大写 |
+| `{风格类型}` | `商务高管风` | 影响整体气质调性 |
 
 **风格类型对照：**
 
-| 英文 | 中文 | 适用场景 |
-|------|------|----------|
-| Corporate Executive | 商务高管风 | 企业高管、律师、金融从业者 |
-| Tech Elite | 科技精英风 | 互联网、AI、工程师、创业者 |
-| Fashion Editorial | 时尚杂志风 | 设计师、创意总监、时尚从业者 |
-| Artistic Minimalist | 艺术极简风 | 艺术家、摄影师、文化创意人 |
+| 风格类型 | 适用场景 |
+|----------|----------|
+| 商务高管风 | 企业高管、律师、金融从业者 |
+| 科技精英风 | 互联网、AI、工程师、创业者 |
+| 时尚杂志风 | 设计师、创意总监、时尚从业者 |
+| 艺术极简风 | 艺术家、摄影师、文化创意人 |
 
 **变体建议：**
 
-- 调整背景色：`gray-white gradient` → `deep navy gradient` 获得更沉稳高级感
-- 调整文字颜色：`Deep blue` → `Gold` 适配奢华品牌风格
+- 调整背景色：`灰白色渐变` → `深海军蓝渐变` 获得更沉稳高级感
+- 调整文字颜色：`深蓝色` → `金色` 适配奢华品牌风格
 - 去掉文字叠加，获得纯净棚拍人像海报
 - 多人版本：同一系列多张拼接为三联海报，统一风格标识
 
